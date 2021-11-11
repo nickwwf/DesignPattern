@@ -1,0 +1,24 @@
+﻿<!-- HyperText Markup Language -->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <meta charset="utf-8" />
+    <title>这是个标题</title>
+</head>
+<body style="background-image: url(ZhengXin.png);background-repeat:no-repeat;background-position:center">
+    <h1>Test</h1>
+    <button onclick="myFunc()" id="title">调用函数</button>
+    <p id="content" class="click"></p>
+    <del style="color: red; font-size: larger; background-color: aqua;">
+        这是被删除的内容
+    </del>
+</body>
+</html>
+
+<script>
+    function myFunc() {
+        document.getElementById("content").innerHTML = "111111";
+    }
+</script>
