@@ -63,11 +63,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1AA969B-5715-4BF9-8832-3D66C70E0A2E}"
 	ProjectSection(SolutionItems) = preProject
 		note.txt = note.txt
+		sum.txt = sum.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac使用", "Autofac使用\Autofac使用.csproj", "{B4F54C21-4430-4BA5-94BA-F1409058B773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "前端测试", "前端测试\前端测试.csproj", "{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "前端测试", "前端测试\前端测试.csproj", "{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

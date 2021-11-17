@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1._1工厂模式
+namespace 工厂模式
 {
     public class Circle : IShape
     {
