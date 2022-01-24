@@ -13,6 +13,9 @@ namespace _5原型模式
             ShapeCache.LoadCache();
 
             Shape clonedShape = (Shape)ShapeCache.GetShape("1");
+            clonedShape = new Circle();
+            clonedShape.SetId("2");
+            Shape clonedShape2 = (Shape)ShapeCache.GetShape("1");
             Console.WriteLine("Shape : " + clonedShape.GetType());
         }
     }

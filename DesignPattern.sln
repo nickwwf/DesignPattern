@@ -64,11 +64,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		note.txt = note.txt
 		sum.txt = sum.txt
+		基础知识学习.txt = 基础知识学习.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac使用", "Autofac使用\Autofac使用.csproj", "{B4F54C21-4430-4BA5-94BA-F1409058B773}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "前端测试", "前端测试\前端测试.csproj", "{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "重写Equals", "重写Equals\重写Equals.csproj", "{9A9CE405-5DB5-4C0E-B8F5-996402DC917C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{61F5A9FF-99F1-43C0-8BD2-24DEC0852624}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\十进制转二进制.png = ..\..\..\Desktop\十进制转二进制.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -188,6 +196,10 @@ Global
 		{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62EF03ED-2DDD-47B3-BB29-0EF9583C4171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9CE405-5DB5-4C0E-B8F5-996402DC917C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9CE405-5DB5-4C0E-B8F5-996402DC917C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9CE405-5DB5-4C0E-B8F5-996402DC917C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9CE405-5DB5-4C0E-B8F5-996402DC917C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
