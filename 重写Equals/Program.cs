@@ -6,7 +6,12 @@ namespace 重写Equals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var t1 = new Test() { MyProperty = "1" };
+            var t2 = new Test() { MyProperty = "1" };
+            string str1 = "aa";
+            string str2 = "aa";
+            Console.WriteLine(str1.Equals(str2));
+            Console.ReadKey();
         }
     }
 
@@ -16,12 +21,14 @@ namespace 重写Equals
 
         public override bool Equals(object obj)
         {
-            return base.Equals(obj);
+            if (obj is Test test)
+                return MyProperty == test.MyProperty;
+            return false;
         }
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return MyProperty.GetHashCode();
         }
     }
 }
