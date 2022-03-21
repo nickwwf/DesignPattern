@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resource", "resource", "{F0E419AA-27C8-4A4A-A87B-A71113103543}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\the-relationship-between-design-patterns.jpg = ..\..\..\Desktop\the-relationship-between-design-patterns.jpg
+		the-relationship-between-design-patterns.png = the-relationship-between-design-patterns.png
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4建造者模式", "4建造者模式\4建造者模式.csproj", "{51422B5F-5B3A-4F03-A5C0-D54E352D8E2F}"
